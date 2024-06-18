@@ -23,10 +23,10 @@ license="${mod_license}"
 modId="lionfishapi" #mandatory
 
 # The version number of the mod
-version="${mod_version}" #mandatory
+version="1.8" #mandatory
 
 # A display name for the mod
-displayName="${mod_name}" #mandatory
+displayName="lionfishapi" #mandatory
 
 # A URL to query for updates for this mod. See the JSON update specification https://docs.neoforged.net/docs/misc/updatechecker/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
@@ -41,7 +41,7 @@ displayName="${mod_name}" #mandatory
 #credits="" #optional
 
 # A text field displayed in the mod UI
-authors="${mod_authors}" #optional
+authors="L_Ender" #optional
 
 # Display Test controls the display for your mod in the server connection screen
 # MATCH_VERSION means that your mod will cause a red X if the versions on client and server differ. This is the default behaviour and should be what you choose if you have server and client elements to your mod.
@@ -55,7 +55,7 @@ authors="${mod_authors}" #optional
 description='''${mod_description}'''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
-#[[mixins]]
+[[mixins]]
 config="lionfishapi.mixins.json"
 
 # The [[accessTransformers]] block allows you to declare where your AT file is.
