@@ -27,7 +27,6 @@ public abstract class BasicEntityModel<T extends Entity> extends EntityModel<T> 
     public void renderToBuffer(PoseStack p_103013_, VertexConsumer p_103014_, int p_103015_, int p_103016_, int p_350603_) {
         this.root().render(p_103013_, p_103014_, p_103015_, p_103016_, p_350603_);
     }
-
     public abstract BasicModelPart root();
 
     @Override
