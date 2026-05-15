@@ -28,6 +28,7 @@ public abstract class BasicEntityModel<T extends Entity> extends EntityModel<T> 
         this.root().render(p_103013_, p_103014_, p_103015_, p_103016_, p_350603_);
     }
 
+
     public abstract BasicModelPart root();
 
     @Override
